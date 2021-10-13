@@ -12,6 +12,7 @@ let data = [
 
 const idFromIndex = (i) => `${data[i].user}-${data[i].score}`;
 
+
 const decorateRanking = () => {
   const allEl = document.querySelectorAll('li');
   const allElArr = [...allEl];
@@ -24,6 +25,7 @@ const decorateRanking = () => {
     allElArr[3].querySelector('.rk').style.background = '#dd7722';
   }
 };
+
 
 const displayData = (data) => {
   const lbl = document.querySelector('.lb-list');
