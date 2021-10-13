@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
 
 *,
 *::before,
@@ -30,7 +31,15 @@ html::after {
 
 h1 {
   margin-left: 15%;
-  font-family: 'Lobster', cursive;
+  font-family: 'Fredoka One', cursive;
+  font-size: 50px;
+  color: rgb(13, 36, 59);
+}
+
+h2 {
+  font-family: 'Carter One', cursive;
+  font-size: 30px;
+  color: rgb(13, 36, 59);
 }
 
 .container {
@@ -57,6 +66,7 @@ h1 {
   width: auto;
   padding: 3px;
   cursor: pointer;
+  color: rgb(45, 57, 107);
 }
 
 .lb-list {
@@ -65,6 +75,7 @@ h1 {
   align-items: flex-start;
   list-style-type: none;
   padding: 0;
+  margin-top: -10px;
   border-radius: 10px;
   border: 2px solid #111;
 }
@@ -85,12 +96,13 @@ li {
 }
 
 .lb-list li:nth-child(even) {
-  background-color: lightgrey;
+  background-color: rgb(142, 187, 207);
 }
 
-li .name {
+li .user {
   min-width: 150px;
   font-size: 15px;
+  font-family: 'Carter One', cursive;
 }
 
 .addscore {
