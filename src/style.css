@@ -126,7 +126,7 @@ li .user {
 }
 
 .addscore-container {
-  padding: 30px; 
+  padding: 30px;
   background-color: rgb(142, 187, 207);
   opacity: 0.9;
   z-index: 2;
@@ -141,10 +141,6 @@ li .user {
 
 .as-form input {
   padding: 7px;
-}
-
-.as-form button {
-  cursor: pointer;
 }
 
 .rk {
@@ -233,4 +229,54 @@ li .user {
   color: var(--group-color-focus);
   background: var(--group-background-focus);
   border-color: var(--group-border-focus);
+}
+
+.button-base {
+  -webkit-appearance: none;
+  border: none;
+  text-transform: none;
+  -moz-box-sizing: border-box;
+  cursor: pointer;
+  box-sizing: border-box;
+  background: #4285f4;
+  color: #fff;
+  vertical-align: middle;
+  border-radius: 3px;
+  line-height: 36px;
+  min-height: 36px;
+  font-size: 14px;
+  text-align: center;
+  min-width: 5.14em;
+  padding: 0 1em;
+  margin: 0 0.25em;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+}
+
+.button-base:focus {
+  outline: 0;
+}
+
+.ripple {
+  position: relative;
+  overflow: hidden;
+}
+
+.ripple::before {
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.6);
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+}
+
+.ripple:focus::before {
+  transition: all 0.8s ease-out;
+  opacity: 0;
+  width: 160px;
+  height: 160px;
+  margin-top: -80px;
+  margin-left: -80px;
 }
