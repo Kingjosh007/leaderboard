@@ -7,7 +7,7 @@
 
 This project was divided into three (3) parts. Refer to the corresponding branch. The branch in bold is the one I am working on. 
 
-1. Markup
+1. **Basic markup**
 2. API manipulations
 3. Final touches: styling
 
