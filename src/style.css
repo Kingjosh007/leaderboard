@@ -44,7 +44,7 @@ h1 {
 }
 
 li {
-  display: flex; 
+  display: flex;
   width: 100%;
   padding: 10px;
   flex-direction: row;
