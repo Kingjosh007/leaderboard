@@ -12,7 +12,7 @@ let data = [
 
 const idFromIndex = (i) => `${data[i].user}-${data[i].score}`;
 
-function decorateRanking() {
+const decorateRanking = () => {
   const allEl = document.querySelectorAll('li');
   const allElArr = [...allEl];
   allElArr.slice(0, 3).forEach((el) => {
@@ -23,9 +23,9 @@ function decorateRanking() {
   if (allElArr.length > 3) {
     allElArr[3].querySelector('.rk').style.background = '#dd7722';
   }
-}
+};
 
-function displayData(data) {
+const displayData = (data) => {
   const lbl = document.querySelector('.lb-list');
   lbl.innerHTML = '';
   const codeForData = data.sort((a, b) => b.score - a.score)
@@ -36,15 +36,15 @@ function displayData(data) {
               </li>`).join('');
   lbl.innerHTML = codeForData;
   decorateRanking();
-}
+};
 
-async function displayScores() {
+const displayScores = async () => {
   const scores = await getScores();
   if (scores.result) {
     data = scores.result;
   }
   displayData(data);
-}
+};
 
 (async () => {
   await displayScores();
