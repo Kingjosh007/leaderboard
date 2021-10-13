@@ -8,8 +8,8 @@
 This project was divided into three (3) parts. Refer to the corresponding branch. The branch in bold is the one I am working on. 
 
 1. Basic markup
-2. **API manipulations**
-3. Final touches: styling
+2. API manipulations
+3. **Final touches: styling**
 
 ## Live Demo
 
@@ -26,11 +26,15 @@ To get a local copy of this project, do the following:
 4. Run `npm install && npm start`
 5. If your browser doesn't open automatically, open it manually and type `http://localhost:8080/` in the URL bar.
 
-## Screenshot
+## Screenshots
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **(Milestone 2) Hit the API**
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 💻 **Desktop version**
 
-![Milestone 2: Hit the API](screenshots/2-hit-the-api.gif)
+![Milestone 3: Final touches (desktop)](screenshots/3-leaderboard-final-touches-desktop.gif)
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 📱 **Mobile version**
+
+![Milestone 3: Final touches (mobile)](screenshots/3-leaderboard-final-touches-mobile.gif)
 
 
 
@@ -57,6 +61,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Heartfelt thanks to [Microverse](https://www.microverse.org/)
+- Hat tip to [Sime Basioli](https://unsplash.com/@simebasioli) whose image was used from Unsplash
 
 ## 📝 License
 
