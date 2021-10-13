@@ -7,8 +7,8 @@
 
 This project was divided into three (3) parts. Refer to the corresponding branch. The branch in bold is the one I am working on. 
 
-1. **Basic markup**
-2. API manipulations
+1. Basic markup
+2. **API manipulations**
 3. Final touches: styling
 
 ## Live Demo
@@ -28,9 +28,9 @@ To get a local copy of this project, do the following:
 
 ## Screenshot
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **(Milestone 1) Basic Markup**
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **(Milestone 2) Hit the API**
 
-![Basic Markup](screenshots/1-basic-markup.PNG)
+![Milestone 2: Hit the API](screenshots/2-hit-the-api.gif)
 
 
 
