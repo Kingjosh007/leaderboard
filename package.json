@@ -38,5 +38,7 @@
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.3.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }
