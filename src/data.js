@@ -12,6 +12,19 @@ let data = [
 
 const idFromIndex = (i) => `${data[i].user}-${data[i].score}`;
 
+function decorateRanking() {
+  const allEl = document.querySelectorAll('li');
+  const allElArr = [...allEl];
+  allElArr.slice(0, 3).forEach((el) => {
+    el.querySelector('.rk').style.background = 'green'; el.querySelector('.rk').style.fontSize = '17px';
+  });
+  allElArr[0].querySelector('.rk').textContent = '🥇'; allElArr[1].querySelector('.rk').textContent = '🥈'; allElArr[2].querySelector('.rk').textContent = '🥉';
+
+  if (allElArr.length > 3) {
+    allElArr[3].querySelector('.rk').style.background = '#dd7722';
+  }
+}
+
 function displayData(data) {
   const lbl = document.querySelector('.lb-list');
   lbl.innerHTML = '';
@@ -22,6 +35,7 @@ function displayData(data) {
                 <span class="score">${el.score}</span>
               </li>`).join('');
   lbl.innerHTML = codeForData;
+  decorateRanking();
 }
 
 async function displayScores() {
