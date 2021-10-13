@@ -160,6 +160,9 @@ li .user {
   clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
   background-color: #456;
   padding: 6px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
   color: #eff;
 }
 
@@ -279,4 +282,26 @@ li .user {
   height: 160px;
   margin-top: -80px;
   margin-left: -80px;
+}
+
+@media all and (max-width: 775px) {
+  h1 {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-inline: 20px;
+  }
+
+  .leaderboard {
+    width: 90%;
+  }
+
+  li {
+    max-width: 100%;
+  }
 }
