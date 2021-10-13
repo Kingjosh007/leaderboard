@@ -1,4 +1,7 @@
-const data = [
+import { getScores, postScore } from './api-stuff.js';
+
+// eslint-disable-next-line import/no-mutable-exports
+let data = [
   { user: 'King007', score: 23 },
   { user: 'PaulWalker', score: 18 },
   { user: 'Gonakie', score: 16 },
@@ -21,4 +24,14 @@ function displayData(data) {
   lbl.innerHTML = codeForData;
 }
 
-export { data, displayData };
+async function displayScores() {
+  const scores = await getScores();
+  if (scores.result) {
+    data = scores.result;
+  }
+  displayData(data);
+}
+
+(async () => {
+  await displayScores();
+})();

@@ -67,7 +67,8 @@ li .name {
 }
 
 .score {
-  justify-self: flex-end;
+  margin-left: auto;
+
 }
 
 .addscore {
