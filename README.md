@@ -7,7 +7,7 @@
 
 This project was divided into three (3) parts. Refer to the corresponding branch. The branch in bold is the one I am working on. 
 
-1. Markup
+1. **Basic markup**
 2. API manipulations
 3. Final touches: styling
 
@@ -26,7 +26,12 @@ To get a local copy of this project, do the following:
 4. Run `npm install && npm start`
 5. If your browser doesn't open automatically, open it manually and type `http://localhost:8080/` in the URL bar.
 
-## Screenshots
+## Screenshot
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **(Milestone 1) Basic Markup**
+
+![Basic Markup](screenshots/1-basic-markup.PNG)
+
 
 
 ## Built With

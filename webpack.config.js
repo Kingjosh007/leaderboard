@@ -13,6 +13,7 @@ module.exports = {
     }),
   ],
   output: {
+    publicPath: '/leaderboard/',
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,

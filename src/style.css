@@ -3,3 +3,89 @@
 *::after {
   box-sizing: border-box;
 }
+
+h1 {
+  margin-left: 15%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-inline: 15%;
+}
+
+.leaderboard {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.lb-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.refreshBtn {
+  width: auto;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.lb-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style-type: none;
+  padding: 0;
+  border: 2px solid #111;
+}
+
+li {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  flex-direction: row;
+  clear: both;
+  align-items: center;
+  gap: 20px;
+  max-width: 400px;
+  transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+}
+
+.lb-list li:nth-child(even) {
+  background-color: lightgrey;
+}
+
+li .name {
+  min-width: 150px;
+}
+
+.score {
+  justify-self: flex-end;
+}
+
+.addscore {
+  display: flex;
+  flex-direction: column;
+}
+
+.as-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-end;
+}
+
+.as-form input {
+  padding: 7px;
+}
+
+.as-form button {
+  cursor: pointer;
+}
