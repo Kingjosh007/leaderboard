@@ -26,7 +26,12 @@ To get a local copy of this project, do the following:
 4. Run `npm install && npm start`
 5. If your browser doesn't open automatically, open it manually and type `http://localhost:8080/` in the URL bar.
 
-## Screenshots
+## Screenshot
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **(Milestone 1) Basic Markup**
+
+![Basic Markup](screenshots/1-basic-markup.PNG)
+
 
 
 ## Built With
