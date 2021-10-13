@@ -1,6 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
 
+:root {
+  --input-color: #0b1d49;
+  --input-border: #cdd9ed;
+  --input-background: #fff;
+  --input-placeholder: #cbd1dc;
+  --input-border-focus: #275efe;
+  --group-color: var(--input-color);
+  --group-border: var(--input-border);
+  --group-background: #eef4ff;
+  --group-color-focus: #fff;
+  --group-border-focus: var(--input-border-focus);
+  --group-background-focus: #678efe;
+}
+
 *,
 *::before,
 *::after {
@@ -46,7 +60,7 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-inline: 10%;
+  margin-inline: 20px;
 }
 
 .leaderboard {
@@ -108,6 +122,14 @@ li .user {
 .addscore {
   display: flex;
   flex-direction: column;
+  margin-top: 50px;
+}
+
+.addscore-container {
+  padding: 30px; 
+  background-color: rgb(142, 187, 207);
+  opacity: 0.9;
+  z-index: 2;
 }
 
 .as-form {
@@ -143,4 +165,72 @@ li .user {
   background-color: #456;
   padding: 6px;
   color: #eff;
+}
+
+.form-field {
+  display: block;
+  width: 100%;
+  padding: 8px 16px;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 6px;
+  -webkit-appearance: none;
+  color: var(--input-color);
+  border: 1px solid var(--input-border);
+  background: var(--input-background);
+  transition: border 0.3s ease;
+}
+
+.form-field::placeholder {
+  color: var(--input-placeholder);
+}
+
+.form-field:focus {
+  outline: none;
+  border-color: var(--input-border-focus);
+}
+
+.form-group {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+.form-group > span,
+.form-group .form-field {
+  white-space: nowrap;
+  display: block;
+}
+
+.form-group .form-field {
+  border-radius: 0 6px 6px 0;
+  position: relative;
+  z-index: 1;
+  flex: 1 1 auto;
+  width: 1%;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Fredoka One', cursive;
+}
+
+.form-group > span {
+  border-radius: 6px 0 0 6px;
+  text-align: center;
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 25px;
+  color: var(--group-color);
+  background: var(--group-background);
+  border: 1px solid var(--group-border);
+  transition: background 0.3s ease, border 0.3s ease, color 0.3s ease;
+}
+
+.form-group:focus-within > span {
+  color: var(--group-color-focus);
+  background: var(--group-background-focus);
+  border-color: var(--group-border-focus);
 }
