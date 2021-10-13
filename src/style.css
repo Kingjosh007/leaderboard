@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 *,
 *::before,
 *::after {
@@ -11,6 +13,7 @@ html {
   margin: 0 auto;
   z-index: 0;
 }
+
 html::after {
   background: url('https://images.unsplash.com/photo-1483004406427-6acb078d1f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
   background-repeat: repeat;
@@ -22,11 +25,12 @@ html::after {
   bottom: 0;
   right: 0;
   left: 0;
-  z-index: -1; 
+  z-index: -1;
 }
 
 h1 {
   margin-left: 15%;
+  font-family: 'Lobster', cursive;
 }
 
 .container {
@@ -126,5 +130,5 @@ li .name {
   clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
   background-color: #456;
   padding: 6px;
-  color: #ddd;
+  color: #eff;
 }
