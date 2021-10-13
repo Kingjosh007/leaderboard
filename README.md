@@ -28,9 +28,9 @@ To get a local copy of this project, do the following:
 
 ## Screenshot
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **(Milestone 1) Basic Markup**
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **(Milestone 2) Hit the API**
 
-![Basic Markup](screenshots/1-basic-markup.PNG)
+![Milestone 2: Hit the API](screenshots/2-hit-the-api.gif)
 
 
 
