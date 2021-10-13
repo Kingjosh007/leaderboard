@@ -35,3 +35,20 @@ async function displayScores() {
 (async () => {
   await displayScores();
 })();
+
+const asForm = document.forms['add-score'];
+
+asForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    let user = asForm.name.value;
+    let score = Number(asForm.score.value);
+    if(user && score) {
+        let obj = { user, score };
+        let res = await postScore(obj);
+        await displayScores();
+        asForm.name.value = '';
+        asForm.score.value = '';
+    }
+    
+    
+})
