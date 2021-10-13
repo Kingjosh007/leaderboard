@@ -3,17 +3,17 @@
 
 # Leaderboard
 
-> "To-do List (inspired from Minimalist)" is a simple yet powerful to-do list inspired from the Minimalist website which is no longer online, but of which you can see an archive [here](https://web.archive.org/web/20180320194056/http://www.getminimalist.com:80/). The ultimate goal of this project was to build a replica of a website using the recently learned ES6 and Webpack concepts.
+> A website displaying scores submitted by different players. It also allows users to add their score. The main goal of this project was to be able to deal with API and play with promises and async/await.
 
 This project was divided into three (3) parts. Refer to the corresponding branch. The branch in bold is the one I am working on. 
 
-1. List structure
-2. Interactive list
-3. Add and remove items
+1. Markup
+2. API manipulations
+3. Final touches: styling
 
 ## Live Demo
 
-Here is the link to the live version of this project: [See it live](https://kingjosh007.github.io/to-do-list-minimalist/) 
+Here is the link to the live version of this project: [See it live](https://kingjosh007.github.io/leaderboard/) 
 
 
 ## Getting Started
@@ -21,8 +21,8 @@ Here is the link to the live version of this project: [See it live](https://king
 To get a local copy of this project, do the following: 
 
 1. In your terminal, `cd` to the folder where you want to copy this project.
-2. Still in your terminal, type `git@github.com:Kingjosh007/to-do-list-minimalist.git` 
-3. Run `cd to-do-list-minimalist`
+2. Still in your terminal, type `git@github.com:Kingjosh007/leaderboard.git` 
+3. Run `cd leaderboard`
 4. Run `npm install && npm start`
 5. If your browser doesn't open automatically, open it manually and type `http://localhost:8080/` in the URL bar.
 
