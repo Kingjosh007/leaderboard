@@ -51,6 +51,7 @@ async function displayScores() {
 })();
 
 const asForm = document.forms['add-score'];
+const refreshBtn = document.querySelector('.refreshBtn');
 
 asForm.addEventListener('submit', async (e) => {
   e.preventDefault();
@@ -63,4 +64,8 @@ asForm.addEventListener('submit', async (e) => {
     asForm.name.value = '';
     asForm.score.value = '';
   }
+});
+
+refreshBtn.addEventListener('click', async () => {
+  await displayScores();
 });
