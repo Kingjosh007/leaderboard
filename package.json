@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
     "start": "webpack serve --open",
-    "build": "webpack"
+    "build": "webpack",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -37,7 +38,5 @@
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.3.0"
   },
-  "dependencies": {
-    "lodash": "^4.17.21"
-  }
+  "dependencies": {}
 }
